@@ -1,0 +1,32 @@
+#todoForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: chocolate;
+    padding: 15px;
+    border-radius: 15px;
+}
+#addBtn{
+    padding: 15px;
+    background-color: rgb(128, 244, 128);
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 15px;
+}
+#addInput{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span{
+    font-family: sans-serif;
+}

@@ -1,0 +1,22 @@
+.doneBtn{
+    padding: 15px;
+    background-color: rgb(210, 91, 91);
+    cursor: pointer;
+    margin-left: 5px;
+}
+.task{
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: 5px;
+}
+.task:hover{
+    cursor: pointer;
+}
+#todoTaskDiv{
+    max-width: max-content;
+    border: 1px solid black;
+}
+#mainDiv{
+    display: flex;
+    justify-content: space-around;
+}
