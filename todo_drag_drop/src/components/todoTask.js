@@ -1,9 +1,7 @@
 import "./todoTask.css";
 import { useState, useEffect, useRef } from "react";
-
 function TodoTask({ task, onDelete }) {
-  let [updatedList, setUpdatedList] = useState([]);
-
+let [updatedList, setUpdatedList] = useState([]); 
   useEffect(() => {
     setUpdatedList(task);
   }, [task]);
